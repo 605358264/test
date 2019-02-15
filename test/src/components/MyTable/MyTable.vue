@@ -9,7 +9,6 @@
 <script>
   import MyColumn from './MyColumn'
   export default {
-    name:'MyColumn',
     components: {
       MyColumn
     },

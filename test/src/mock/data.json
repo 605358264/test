@@ -1,378 +1,119 @@
 {
   "table":{
-  "cols": [
-      {
-        "prop": "date",
-        "label": "日期"
-      },
-      {
-        "prop":"sum",
-        "label": "合计",
-        "children": [
-          {
-            "prop": "forecast",
-            "label":"预测",
-            "children":[
-              {
-                "prop":"forecastSum",
-                "label":"合计"
-              },
-              {
-                "prop":"forecastcapital",
-                "label":"本金"
-              },
-              {
-                "prop":"forecastInterest",
-                "label":"利息"
-              }
-            ]
-          },
-          {
-            "prop":"actualForecast",
-            "label": "实际",
-            "children":[
-              {
-                "prop":"actualSum",
-                "label":"合计"
-              },
-              {
-                "prop":"actualSumCapital",
-                "label":"本金"
-              },
-              {
-                "prop":"actualSumInterest",
-                "label":"利息",
-                "children":[
-                  {
-                    "prop":"actualSum",
-                    "label":"合计"
-                  },
-                  {
-                    "prop":"actualSumCapital",
-                    "label":"本金"
-                  },
-                  {
-                    "prop":"actualSumInterest",
-                    "label":"利息"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "prop":"group",
-        "label":"集团",
-        "children": [
-          {
-            "prop":"groupForecast",
-            "label":"预测",
-            "children":[
-              {
-                "prop":"groupForecastSum",
-                "label":"合计"
-              },
-              {
-                "prop":"groupForecastCapital",
-                "label":"本金"
-              },
-              {
-                "prop":"groupForecastInterest",
-                "label":"利息"
-              }
-            ]
-          },
-          {
-            "prop":"groupActual",
-            "label": "实际",
-            "children":[
-              {
-                "prop":"groupActualSum",
-                "label":"合计"
-              },
-              {
-                "prop":"groupActualCapital",
-                "label":"本金"
-              },
-              {
-                "prop":"groupActualInterest",
-                "label":"利息"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-  "tableData":  [
+  "col": [
     {
-      "date": "2016-05-03",
-      "forecastSum":"54835.00",
-      "forecastcapital":"54835.00",
-      "forecastInterest":"54835.00",
-
-      "groupActualSum":"54835.00",
-      "groupActualCapital":"54835.00",
-      "groupActualInterest":"54835.00",
-
-      "forecast":"54835.00",
-      "actualForecast":"54835.00",
-      "actualSum":"54835.00",
-
-      "actualSumCapital":"54835.00",
-      "actualSumInterest":"54835.00",
-
-      "groupForecast":"54835.00",
-      "groupForecastSum":"54835.00",
-      "groupForecastInterest":"54835.00",
-      "groupForecastCapital":"54835.00",
+      "prop": "date",
+      "label": "日期"
+    },
+    {
+      "label":"配送信息",
       "children":[
         {
-          "date":"债券",
-          "forecastSum":"11",
-          "forecastcapital":"54835",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00",
-          "children":[
+          "prop":"name",
+          "label":"姓名"
+        },
+        {
+          "label":"地址",
+          "children": [
             {
-              "date":"债券2222222222",
-              "forecastSum":"22",
-              "forecastcapital":"54835.00",
-              "forecastInterest":"54835.00",
-              "groupActualSum":"54835.00",
-              "groupActualCapital":"54835.00",
-              "groupActualInterest":"54835.00",
-              "forecast":"54835.00",
-              "actualForecast":"54835.00",
-              "actualSum":"54835.00",
-              "actualSumCapital":"54835.00",
-              "actualSumInterest":"54835.00",
-              "groupForecast":"54835.00",
-              "groupForecastSum":"54835.00",
-              "groupForecastInterest":"54835.00",
-              "groupForecastCapital":"54835.00"
+              "prop": "province",
+              "label":"省份"
             },
             {
-              "date":"优先股",
-              "forecastSum":"54835.00",
-              "forecastcapital":"54835.00",
-              "forecastInterest":"54835.00",
-              "groupActualSum":"54835.00",
-              "groupActualCapital":"54835.00",
-              "groupActualInterest":"54835.00",
-              "forecast":"54835.00",
-              "actualForecast":"54835.00",
-              "actualSum":"54835.00",
-              "actualSumCapital":"54835.00",
-              "actualSumInterest":"54835.00",
-              "groupForecast":"54835.00",
-              "groupForecastSum":"54835.00",
-              "groupForecastInterest":"54835.00",
-              "groupForecastCapital":"54835.00"
-            },
-            { "date":"理财","forecastSum":"54835.00",
-              "forecastcapital":"54835.00",
-              "forecastInterest":"54835.00",
-              "groupActualSum":"54835.00",
-              "groupActualCapital":"54835.00",
-              "groupActualInterest":"54835.00",
-              "forecast":"54835.00",
-              "actualForecast":"54835.00",
-              "actualSum'":"54835.00",
-              "actualSumCapital":"54835.00",
-              "actualSumInterest":"54835.00",
-              "groupForecast":"54835.00",
-              "groupForecastSum":"54835.00",
-              "groupForecastInterest":"54835.00",
-              "groupForecastCapital":"54835.00"
-            },
-            {"date":"非标","forecastSum":"54835.00",
-              "forecastcapital'":"54835.00",
-              "forecastInterest":"54835.00",
-              "groupActualSum":"54835.00",
-              "groupActualCapital":"54835.00",
-              "groupActualInterest":"54835.00",
-              "forecast":"54835.00",
-              "actualForecast":"54835.00",
-              "actualSum":"54835.00",
-              "actualSumCapital":"54835.00",
-              "actualSumInterest":"54835.00",
-              "groupForecast":"54835.00",
-              "groupForecastSum":"54835.00",
-              "groupForecastInterest":"54835.00",
-              "groupForecastCapital":"54835.00"
-            },
-            {"date":"存款","forecastSum":"54835.00",
-              "forecastcapital":"54835.00",
-              "forecastInterest":"54835.00",
-              "groupActualSum":"54835.00",
-              "groupActualCapital'":"54835.00",
-              "groupActualInterest":"54835.00",
-              "forecast":"54835.00",
-              "actualForecast":"54835.00",
-              "actualSum":"54835.00",
-              "actualSumCapital":"54835.00",
-              "actualSumInterest":"54835.00",
-              "groupForecast":"54835.00",
-              "groupForecastSum":"54835.00",
-              "groupForecastInterest":"54835.00",
-              "groupForecastCapital":"54835.00"
-            },
-            {
-              "date":"存单","forecastSum":"54835.00",
-              "forecastcapital":"54835.00",
-              "forecastInterest":"54835.00",
-              "groupActualSum":"54835.00",
-              "groupActualCapital":"54835.00",
-              "groupActualInterest":"54835.00",
-              "forecast":"54835.00",
-              "actualForecast":"54835.00",
-              "actualSum":"54835.00",
-              "actualSumCapital":"54835.00",
-              "actualSumInterest":"54835.00",
-              "groupForecast":"54835.00",
-              "groupForecastSum":"54835.00",
-              "groupForecastInterest":"54835.00",
-              "groupForecastCapital":"54835.00",
-              "children":[
+              "prop":"city",
+              "label": "市区",
+              "children": [
                 {
-                  "date":"存单",
-                  "forecastSum":"54835.00",
-                  "forecastcapital":"54835.00",
-                  "forecastInterest":"54835.00",
-                  "groupActualSum":"54835.00",
-                  "groupActualCapital":"54835.00",
-                  "groupActualInterest":"54835.00",
-                  "forecast":"54835.00",
-                  "actualForecast":"54835.00",
-                  "actualSum":"54835.00",
-                  "actualSumCapital":"54835.00",
-                  "actualSumInterest":"54835.00",
-                  "groupForecast":"54835.00",
-                  "groupForecastSum":"54835.00",
-                  "groupForecastInterest":"54835.00",
-                  "groupForecastCapital":"54835.00"
+                  "prop":"province",
+                  "label":"村"
+                },
+                {
+                  "prop":"city",
+                  "label": "镇"
+                },
+                {
+                  "prop": "address",
+                  "label": "县城"
+                },
+                {
+                  "prop":"tel",
+                  "label": "电话"
+                }
+              ]
+            },
+            {
+              "prop":"addres",
+              "label":"地址"
+            },
+            {
+              "prop":"tel",
+              "label":"电话",
+              "children": [
+                {
+                  "prop":"province",
+                  "label":"省份"
+                },
+                {
+                  "prop":"city",
+                  "label":"市区"
+                },
+                {
+                  "prop":"address",
+                  "label":"地址"
+                },
+                {
+                  "prop": "tel",
+                  "label": "电话"
                 }
               ]
             }
+
           ]
-        },
-        {
-          "date":"优先股",
-          "forecastSum":"54835.00",
-          "forecastcapital":"54835.00",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00"
-        },
-        {
-          "date":"理财",
-          "forecastSum":"54835.00",
-          "forecastcapital":"54835.00",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00"
-        },
-        {"date":"非标","forecastSum":"54835.00",
-          "forecastcapital":"54835.00",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00"
-        },
-        {
-          "date:'存款',forecastSum":"54835.00",
-          "forecastcapital":"54835.00",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00"
-        },
-        {
-          "date":"存单","forecastSum":"54835.00",
-          "forecastcapital":"54835.00",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00"
-        },
-        {
-          "date:'ABS',forecastSum":"54835.00",
-          "forecastcapital":"54835.00",
-          "forecastInterest":"54835.00",
-          "groupActualSum":"54835.00",
-          "groupActualCapital":"54835.00",
-          "groupActualInterest'":"54835.00",
-          "forecast":"54835.00",
-          "actualForecast":"54835.00",
-          "actualSum":"54835.00",
-          "actualSumCapital":"54835.00",
-          "actualSumInterest":"54835.00",
-          "groupForecast":"54835.00",
-          "groupForecastSum":"54835.00",
-          "groupForecastInterest":"54835.00",
-          "groupForecastCapital":"54835.00"
         }
       ]
     }
-  ]
+  ],
+  "data":[
+  {
+    "date":"2016-05-03",
+    "name": "王小虎",
+    "province": "上海",
+    "city": "普陀区",
+    "address": "上海市普陀区金沙江路 1518 弄",
+    "tel":"13626834923",
+    "zip":"200333",
+    "percentage": 25
+  },
+  {
+    "date":" 2016-05-02",
+    "name": "王小虎",
+    "province": "上海",
+    "city": "普陀区",
+    "address": "上海市普陀区金沙江路 1518 弄",
+    "tel":"13626834943",
+    "zip": "200333",
+    "percentage": 50
+  },
+  {
+    "date":"2016-05-02",
+    "name": "王小虎1",
+    "province":"上海1",
+    "city":"普陀区1",
+    "address":"上海市普陀区金沙江路 1518 弄1",
+    "tel":"13626834943",
+    "zip": "200333",
+    "percentage": 75
+  },
+  {
+      "date":"2016-05-02",
+      "name": "王小虎1",
+      "province":"上海1",
+      "city":"普陀区1",
+      "address":"上海市普陀区金沙江路 1518 弄1",
+      "tel":"13626834943",
+      "zip": "200333",
+      "percentage": 100
+    }
+   ]
   }
 }

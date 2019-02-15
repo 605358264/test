@@ -1,6 +1,6 @@
 
 //定义 MOCKJS中table的状态
-//import Vue from 'vue'
+import Vue from 'vue'
 
 
 import {RECEIVETABLE} from './mutation-type'

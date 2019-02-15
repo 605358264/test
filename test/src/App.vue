@@ -6,6 +6,7 @@
 
 <script>
   import dongTaiBiaoTou from './pages/dongTaiBiaoTou/dongTaiBiaoTou'
+
 export default {
   components:{
     dongTaiBiaoTou
