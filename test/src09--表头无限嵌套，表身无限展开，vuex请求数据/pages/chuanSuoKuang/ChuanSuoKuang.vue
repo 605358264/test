@@ -23,26 +23,26 @@
               {
                 id: "1-1",
                 pid: "1",
-                label: "二级 1-1",
+                label: "二级 ",
                 children: []
               },
               {
                 id: "1-2",
                 pid: "1",
-                label: "二级 1-2",
+                label: "二级",
                 children: [
                   {
                     id: "1-2-1",
                     pid: "1-2",
                     disabled: true,
                     children: [],
-                    label: "二级 1-2-1"
+                    label: "三级 "
                   },
                   {
                     id: "1-2-2",
                     pid: "1-2",
                     children: [],
-                    label: "二级 1-2-2"
+                    label: "三级 "
                   }
                 ]
               }

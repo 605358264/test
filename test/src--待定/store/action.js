@@ -11,7 +11,8 @@ export default{
 
     if(result.code===0){
       const table=result.data
-
+      console.log('------')
+      console.log(table)
       commit(RECEIVETABLE,{table})
     }
   },
