@@ -1,0 +1,30 @@
+<template>
+  <div class="my-table">
+    <el-table :data="data" align="center">
+      <my-column v-for="(item,index) in col" :key="index" :col="item"></my-column>
+    </el-table>
+  </div>
+</template>
+
+<script>
+  import MyColumn from './MyColumn'
+  export default {
+    name:'MyColumn',
+    components: {
+      MyColumn
+    },
+    props: {
+      col: {
+        type: Array
+      },
+      data: {
+        type: Array
+      }
+    }
+  }
+</script>
+<style scoped>
+  .my-table{
+
+  }
+</style>

@@ -1,0 +1,32 @@
+@font-face {font-family: "fontFamily";
+  src: url('iconfont.eot?t=1551333309084'); /* IE9 */
+  src: url('iconfont.eot?t=1551333309084#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOgAAsAAAAAB7QAAANUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCeIJdATYCJAMMCwgABCAFhQUHQxvIBhEVnHXIfmryEJsVKqTPRCWFAijAt4NhuIMCAAAAAILn//f3/3Ptta72OU/yBzOcfnzpy0kJQAYTWAEmefR7MM5ugNIcCpTRFq2Q+O82pAdRrWQnuC4ANjdD16gIxZKcB//LM9KxwqUp8P///dQf2/EncAF8GYUVpgOMCCuaWIGUIG4Yu6AlboYAnlKakQmz2QJxDLOXADLXxYMQzzgxjEXiCNGKiYZsB0PcbXD7AGwLXi/fQSF4cEQUc+DkYVMExnwSfFpFVSWr8HgYrOn0AJsGCjQDBjKn0jgbjYLNKF4VWnNiFENwU3mKxYCp8aPWHx44BCSKmR4CUI8E7qJYDjMRrUL2VX9SAYgCMWAhcG6CXDA0DMsw6MbFpUdPlmfP1hev9ucv6ecnthen9mfH1qdH7r25M0c31k+vz95ddTwoBHBgoSZl6EaRNARDJ4sOWkKZ9S3tip4fWXQvTgMJ3z6MfDEw3Jc3q2nt3o3Z04fXNMxo2ATjcmc25qYUijll/6vOTCQyF52Lyhlo4DnmTFie0nf+kv3/26zNePxLlI7okAZzx3xKTasr1p4Z7lG27jfyFUxFHUvL/pHdZWnd5UaPIbLT17I3NeaC6KXBtz562EqatvdH9KSNfPw4jMInenyr3TqE2j1AdiQKV69uSrS7w11UmzbevClfapR1L0tYGXcZM4A1P3Ej3kpVPYFwJfMKiABIfqIalPmf3sPE9ckvP23EH55kALzsaL4WTEhWG+gagDgOOrP+CqtjnWkcU6WmMB2mYVJGpOw4gC4P/ItsgEzeD5fm3Lle8BkWA0eMMlA8tbhR2yFCwCBE8UwETxOTpgdksRpFLAE0sgWAkM0FcKRyB5RsXuFG/QkRcgUBUbKFB56Z0rRgQK1Ue4qBcRU8YPuD2ylrWyHKvW9ek4v/F5oaV87lRff8kIujDEPbl0QWzMhTDSmXGUU0aKYEc/N2GCPByeRxl9aKnFPX6aortTulRmFgXAUP2P7gdsras4qKfn9ek4v/F5oaV24sWYz/IRfIqG4dhrbvhC/C3LHo1pYplxlFNGgGKAFrinYYI8FZ3c7jLq0d4D+nzmqmuwrbQ4vTu+YDyzAvoOJExSAPr9lWVyzVP6rVlbxbs1BtGg==') format('woff2'),
+  url('iconfont.woff?t=1551333309084') format('woff'),
+  url('iconfont.ttf?t=1551333309084') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1551333309084#fontFamily') format('svg'); /* iOS 4.1- */
+}
+
+.fontFamily {
+  font-family: "fontFamily" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="el-icon-test"], [class*=" el-icon-test"] {
+  font-family:"fontFamily" !important;
+  /* 以下内容参照第三方图标库本身的规则 */
+  font-size: 25px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.el-icon-testfanhuishouye:before {
+  content: "\e6c2";
+}
+
+.el-icon-testzuojiantou:before {
+  content: "\e619";
+}
+
