@@ -1,5 +1,5 @@
 <template>
-  <el-table ref="multipleTable" :data="tableData3" tooltip-effect="dark" class="climb-table" style="width:100%" @selection-change="PitchChange">
+  <el-table :data="tableData3"  class="climb-table" style="width:100%" >
     <el-table-column type="selection">
     </el-table-column>
     <el-table-column v-for="(item, index) in colData" :key="index" :colData="item" :label="item.label" :prop="item.prop">

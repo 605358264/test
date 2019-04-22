@@ -11,6 +11,7 @@ import icons from "../pages/icons/icons";
 import shuXinBiaoGe from "../pages/shuXinBiaoGe/shuXinBiaoGe";
 import Selectors from "../pages/selectors/Selectors";
 import chuantubiao from "../pages/chuantubiao/index"
+ import sanjiliandong from "../pages/sanjiliandong/sanjiliandong";
 Vue.use(Router);
 
 export default new Router({
@@ -21,6 +22,9 @@ export default new Router({
     },{
       path: "/icons",
       component: icons
+    },{
+      path: "/sanjiliandong",
+      component: sanjiliandong
     },{
       path: "/dongTaiBiaoTou",
       component: dongTaiBiaoTou
@@ -51,6 +55,10 @@ export default new Router({
       path: "/chuantubiao",
       component:chuantubiao
     },
+    // {
+    //   path:"/sanjiliandong",
+    //   component:sanjiliandong
+    // },
     {
       path: "/",
       redirect: "/dongTaiBiaoTou"
